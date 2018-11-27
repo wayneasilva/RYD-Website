@@ -1,0 +1,285 @@
+/* * {
+    border: 1px solid white;
+} */
+
+/****Header****/
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 60px; */
+    background-color: rgb(0, 109, 143);
+}
+
+#navbar > div {
+    display: flex;
+    flex-direction: row;
+}
+
+#brand-hero {
+    background-color: #FFF;
+}
+
+#brand-hero > header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-left {
+
+}
+
+#logo-right {
+    
+}
+
+#brand-hero > header > h1 {
+    font-size: 5em;
+}
+
+#nav-deals {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(0, 106, 228);
+}
+
+#nav-products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item > p {
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+}
+
+#header-section-1 {
+    background-image: url('img/sea-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-bottom: 5px solid white;
+}
+
+#main-header {
+    align-self: center;
+    /* justify-self: self-start; */
+}
+/*********Body*********/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#section-1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* border-left: 5px solid white;
+    border-right: 5px solid white; */
+    border-bottom: 5px solid white;
+}
+
+#section-1 > header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 140, 158);
+    height: 20%;
+    min-height: 100px;
+    border-bottom: 5px solid white;
+}
+
+#section-1 > header > h1 {
+    color: #FFF;
+    font-size: 3em;
+    font-family: serif;
+}
+
+#content-1 {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+#content-1 > div {
+    width: 50%;
+}
+
+.divider {
+    background-color: rgb(113, 248, 214);
+    /* padding: 25px; */
+}
+
+#item-box-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/bikini.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-right: 5px solid white; */
+}
+
+#item-box-2 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/dress.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#section-2 > header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 140, 158);
+    height: 20%;
+    /* border-left: 5px solid white;
+    border-right: 5px solid white; */
+    border-bottom: 5px solid white;
+}
+
+#section-2 > header > h1 {
+    color: #FFF;
+    font-size: 3em;
+    font-family: serif;
+}
+
+#content-2 {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+#item-box-3 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/tall-girl-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-left: 5px solid white;
+    border-right: 5px solid white; */
+}
+
+#item-box-4 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/tall-girl-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-right: 5px solid white; */
+}
+
+#item-box-5 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/tall-girl-3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-right: 5px solid white; */
+}
+
+#item-box-6 {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background-image: url('img/tall-girl-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(48, 42, 42);
+    width: 100%;
+    height: 50vh;
+}
+
+#left-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+#right-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+#right-footer > header {
+    font-size: 1.5em;
+}
+
+.end-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.end-text > h2 {
+    font-size: 1.5em;
+}
+
+.end-text > ul {
+
+}
+/****footer****/
+#social-bar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#social-bar > ul > li {
+    margin-right: 3px;
+}
+
+#payment-container {
+
+}
+
+#payment-container > h2 {
+
+}
+
+#payment-container > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#payment-container > ul > li {
+    margin-right: 3px;
+}
