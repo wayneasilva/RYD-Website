@@ -28,17 +28,21 @@
 }
 
 #brand-hero {
+    display: flex;
     background-color: #FFF;
     align-items: center;
+    height: 7.75em
 }
 
 #brand-hero > header {
     display: flex;
     flex-direction: row;
+    margin-left: 15px;
+    /* background-color: red; */
 }
 
 #brand-hero > header > h1 {
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 #logo-left {
@@ -50,8 +54,60 @@
     
 }
 
+/* #search-container {
+    display: flex;
+    /* justify-content: flex-end; */
+    /* flex-grow: 1;
+    background-color: blue; */
+/* }  */
+
 #search-form {
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    /* flex-grow: 2; */
+    /* margin-left: 50px; */
+    /* width: 100%; */
+}
+
+#search-form > #search {
+    border: 1px solid lightgrey;
+    height: 2.5em;
+    flex: 2 0 250px;
+    margin-left: 15px;
+}
+
+#search-form > button {
+    border: 2px solid #FFF;
+    background-color: black;
+    height: 2.8em;
+    width: 70px;
+}
+
+#header-icons-container {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    width: 900px;
+    /* background:lightgrey; */
+    /* width: 100%; */
+    /* background-color: green; */
+}
+
+#header-icons-container > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#headers-icons-container > ul > li {
+    font-family: 'Oswald', sans-serif;
+}
+
+#header-icons-container > ul > li > i {
+    color: black;
+    margin: 5px;
 }
 
 #nav-deals {
@@ -60,15 +116,16 @@
     align-items: center;
     height: 40px;
     /* background-color: rgb(0, 204, 255); */
-    background: linear-gradient(0.25turn, rgb(228, 252, 253), rgb(160, 255, 242), rgb(126, 0, 94));
+    background: linear-gradient(0.25turn, rgb(228, 252, 253), rgb(160, 255, 242), rgb(236, 175, 255));
 }
 
 #nav-products {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     background-color: #000;
-    align-content: space-between;
+    /* align-content: space-between; */
+    height: 6.5em;
 }
 
 .nav-item {
@@ -78,7 +135,7 @@
 }
 
 .nav-item > p {
-    font-size: 1em;
+    font-size: .89em;
     font-family: 'Oswald', sans-serif;
     color: #FFF;
 }
