@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+<% console.log(products) %>
+
+<div id="section-1">
+    <div id="banner-background">
+        <div id="spacer">
+            
+        </div>
+        <div id="main-header-banner">
+            <h1>Summer Sale</h1>
+        </div>
+        <div class="" id="top-seller-banner">
+            <p>Top Sellers</p>
+        </div>
+    </div>
+    <div id="product-container">
+        <% products.forEach((product) => { %>
+            <div class="item-container">
+                <img class="image" src="<%= product['imageUrl'] %>">
+                <p class=""><%= product['itemName'] %></p>
+            </div>
+        <% }) %>
+    </div>
+</div>
+
+<% include ./partials/footer %>

@@ -1,0 +1,10 @@
+<% include ./partials/header %>
+
+<div id="product-container">
+    <% products.forEach((product) => { %>
+        <div class="item-container">
+            <img class="image" src="<%= product['imageUrl'] %>">
+            <p class=""><%= product['itemName'] %></p>
+        </div>
+    <% }) %>
+</div>
